@@ -41,8 +41,8 @@ class ProductsController extends BaseController {
         $validator = Validator::make($request->all(), [
                     'title' => 'required|unique:products|max:255',
                     'description' => 'required',
-                    'price' => 'integer',
-                    'availability' => 'boolean',
+                    'price' => 'integer|required',
+                    'availability' => 'boolean|required',
                     'category_id' => 'integer',
                     'size' => 'string',
                     'color' => 'string',
@@ -51,7 +51,8 @@ class ProductsController extends BaseController {
         if ($validator->fails()) {
             return $this->sendError('Validation Errors', $validator->errors());
         }
-
+            
+        
         $product = $this->productRepo->create($input);
 
         return $this->sendResponse($product->toArray(), 'Product created successfully.');

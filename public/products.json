@@ -1,0 +1,21 @@
+
+// POST-> localhost/restapp/public/api/products  // CREATE Products
+
+{
+ 	"title": "title",
+        "description": "description",
+        "price": "123",
+        "availability": "1",
+        "categories":[
+        	   {
+        		 "category_id":12,
+        		 "size": "asdfasdfasdf",
+        		 "color": "asdfasdfasdf"
+               },
+               {
+        		 "category_id":22,
+        		 "size": "mediut",
+        		 "color": "green"
+               }
+        ]
+ }
