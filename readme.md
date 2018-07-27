@@ -34,8 +34,8 @@ Work Flow of Products API
 ![picture](public/img/source_code_product_controller.png)
 
 POSTMAN API Calls:
-![picture](public/img/sc/apis/login.success)
-
+Login
+![picture](public/img/sc/apis/login.success.png)
 
 ## LinkedIn Profile Link
  Here's link to my profile on [LinkedIn](https://www.linkedin.com/in/mobeendev) 
