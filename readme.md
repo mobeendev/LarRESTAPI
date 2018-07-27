@@ -18,54 +18,45 @@ I am currently learning Angular & in furure I have plans to connect this API wit
 
 ## Code Screen Shots
 
-ProductsController
+### ProductsController
 ![picture](public/img/ProductsController.png)
 
-ProductRepositoryInterface
+### ProductRepositoryInterface
 ![picture](public/img/ProductRepositoryInterface.png)
 
-ProductRepository
+### ProductRepository
 ![picture](public/img/ProductRepository.png)
 
-ProductModel
+### ProductModel
 ![picture](public/img/ProductModel.png)
 
 Work Flow of Products API
 ![picture](public/img/source_code_product_controller.png)
 
-POSTMAN API Calls:
-Login Success
+## POSTMAN API Calls:
+
+### Login Success
 ![picture](public/sc/apis/login.success.png)
 
-Login Failed
+### Login Failed
 ![picture](public/sc/apis/login.errors.png)
 
-Login Failed
+### Login Failed
 ![picture](public/sc/apis/login.errors2.png)
 
-
-Login Failed
-![picture](public/sc/apis/login.errors2.png)
-
-Login Failed
-![picture](public/sc/apis/login.errors2.png)
-
-Products GET by ID
+### Products GET by ID
 ![picture](public/sc/apis/products.get.success.png)
 
-Products GET by ID
-![picture](public/sc/apis/products.get.success.png)
-
-Products GET by ID Error
+### Products GET by ID Error
 ![picture](public/sc/apis/products.get.error.png)
 
-Products POST/SAVE
+### Products POST/SAVE
 ![picture](public/sc/apis/products.post.success.png)
 
-Products Delete 
+### Products Delete 
 ![picture](public/sc/apis/products.delete.success.png)
 
-Products Delete 
+### Products Delete 
 ![picture](public/sc/apis/products.delete.error.png)
 
 
