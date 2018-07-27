@@ -34,8 +34,40 @@ Work Flow of Products API
 ![picture](public/img/source_code_product_controller.png)
 
 POSTMAN API Calls:
-Login
+Login Success
 ![picture](public/sc/apis/login.success.png)
+
+Login Failed
+![picture](public/sc/apis/login.errors.png)
+
+Login Failed
+![picture](public/sc/apis/login.errors2.png)
+
+
+Login Failed
+![picture](public/sc/apis/login.errors2.png)
+
+Login Failed
+![picture](public/sc/apis/login.errors2.png)
+
+Products GET by ID
+![picture](public/sc/apis/products.get.success.png)
+
+Products GET by ID
+![picture](public/sc/apis/products.get.success.png)
+
+Products GET by ID Error
+![picture](public/sc/apis/products.get.error.png)
+
+Products POST/SAVE
+![picture](public/sc/apis/products.post.success.png)
+
+Products Delete 
+![picture](public/sc/apis/products.delete.success.png)
+
+Products Delete 
+![picture](public/sc/apis/products.delete.error.png)
+
 
 ## LinkedIn Profile Link
  Here's link to my profile on [LinkedIn](https://www.linkedin.com/in/mobeendev) 
