@@ -30,7 +30,7 @@ I am currently learning Angular & in furure I have plans to connect this API wit
 ### ProductModel
 ![picture](public/img/ProductModel.png)
 
-Work Flow of Products API
+## Work Flow of Products API
 ![picture](public/img/source_code_product_controller.png)
 
 ## POSTMAN API Calls:
@@ -38,27 +38,38 @@ Work Flow of Products API
 ### Login Success
 ![picture](public/sc/apis/login.success.png)
 
-### Login Failed
+### Login Invalid Credentials Error
 ![picture](public/sc/apis/login.errors.png)
 
-### Login Failed
+### Login Validation Errors
 ![picture](public/sc/apis/login.errors2.png)
+
+### Get All Products
+![picture](public/sc/apis/products.all.png)
 
 ### Products GET by ID
 ![picture](public/sc/apis/products.get.success.png)
 
-### Products GET by ID Error
+### Products GET by ID Error / Product Not Found
 ![picture](public/sc/apis/products.get.error.png)
 
-### Products POST/SAVE
+### Save/POST Products Success
 ![picture](public/sc/apis/products.post.success.png)
+
+### Update/PUT Products Success
+![picture](public/sc/apis/products.update.request.success.png)
 
 ### Products Delete 
 ![picture](public/sc/apis/products.delete.success.png)
 
-### Products Delete 
+### Products Delete Error /  Product Not Found
 ![picture](public/sc/apis/products.delete.error.png)
 
+### Register Success
+![picture](public/sc/apis/register.success.png)
+
+### Token Expired
+![picture](public/sc/apis/token_expire_error.png)
 
 ## LinkedIn Profile Link
  Here's link to my profile on [LinkedIn](https://www.linkedin.com/in/mobeendev) 
