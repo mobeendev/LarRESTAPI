@@ -16,8 +16,8 @@ class CreateCategoryProductPivotTable extends Migration {
             $table->increments('id');
             $table->integer('product_id');
             $table->integer('category_id');
-            $table->string('size', 255)->nullable(true);
-            $table->string('color', 255)->nullable(true);
+//            $table->string('size', 255)->nullable(true);
+//            $table->string('color', 255)->nullable(true);
             $table->timestamps();
         });
     }

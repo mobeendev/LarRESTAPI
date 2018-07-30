@@ -16,6 +16,12 @@ I have:
 
 I am currently learning Angular & in furure I have plans to connect this API with the Angular FronEnd.
 
+## Project ERD
+![picture](public/img/erd.png)
+
+## API Routes
+![picture](public/img/api.png)
+
 ## Code Screen Shots
 
 ### ProductsController
@@ -43,6 +49,24 @@ I am currently learning Angular & in furure I have plans to connect this API wit
 
 ### Login Validation Errors
 ![picture](public/sc/apis/login.errors2.png)
+
+### Get All Categories
+![picture](public/sc/apis/category.all.png)
+
+### Get Category By ID
+![picture](public/sc/apis/category.find.png)
+
+### Save/POST Category Success
+![picture](public/sc/apis/category.save.success.png)
+
+### Save/POST Category Error
+![picture](public/sc/apis/category.save.error.png)
+
+### DELETE Category  
+![picture](public/sc/apis/category.delete.success.png)
+
+### DELETE Category  Error
+![picture](public/sc/apis/category.delete.error.png)
 
 ### Get All Products
 ![picture](public/sc/apis/products.all.png)

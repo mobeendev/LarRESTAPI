@@ -19,11 +19,11 @@ class ProductRepository implements ProductRepositoryInterface {
 
         $product = Product::create($data);
 
-        foreach ($data['categories'] as $category) {
-            if (isset($category['size']) && isset($category['color'])) {
-                $product->categories()->attach($category['category_id'], ['size' => $category['size'], 'color' => $category['color']]);
-            }
-        }
+        $product->categories()->attach($data['categories']);
+//        foreach ($data['categories'] as $category) {
+//                $product->categories()->attach($category['category_id']);
+//           
+//        }
 
         return $product;
     }
@@ -33,13 +33,14 @@ class ProductRepository implements ProductRepositoryInterface {
         $product->categories()->detach();
 
         $product->update($data);
-
-         foreach ($data['categories'] as $category) {
-            if (isset($category['size']) && isset($category['color'])) {
-                $product->categories()->attach($category['category_id'], ['size' => $category['size'], 'color' => $category['color']]);
-            }
-        }
         
+        $product->categories()->attach($data['categories']);
+//        foreach ($data['categories'] as $category) {
+//            if (isset($category['size']) && isset($category['color'])) {
+//                $product->categories()->attach($category['category_id']);
+//            }
+//        }
+
         return $product;
     }
 
