@@ -16,6 +16,12 @@ I have:
 
 I am currently learning Angular & in furure I have plans to connect this API with the Angular FronEnd.
 
+## Project ERD
+![picture](public/img/erd.png)
+
+## API Routes
+![picture](public/img/api.png)
+
 ## Code Screen Shots
 
 ### ProductsController
