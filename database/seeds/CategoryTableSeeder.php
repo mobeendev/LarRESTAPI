@@ -18,7 +18,7 @@ class CategoryTableSeeder extends Seeder {
         $faker = Faker\Factory::create();
         for ($i = 0; $i < 100; $i++) {
             DB::table('categories')->insert([
-                'name' => implode($faker->words(), ' '),
+                'name' => implode(' ',$faker->words()),
                 'sub_category_id' => (($i % 2) === 0) ? $this->get_random_category_id() : null,
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ]);

@@ -13,7 +13,7 @@ class UserSeeder extends Seeder {
         $user = new \App\User;
 
         $user->name = 'abdul mobeen';
-        $user->email = 'mobeen@admin.com';
+        $user->email = 'admin@admin.com';
         $user->password = bcrypt('lkjlkj');
         $user->save();
     }
